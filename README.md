@@ -15,5 +15,17 @@ I plan to watch the vidoes, create user stories and then try to code it on my ow
 - [ ] I can upload my display picture and have a default picture until I upload mine.
 - [ ] I can re-login and persist the data.
 
+### How to run
+- Open terminal with the home directory
+- Install the dependencies from requirements.txt with:
+```
+pipenv install -r requirements.txt
+```
+- Run the flask server using
+```
+flask run
+```
+- Go to your browser and see the project on http://localhost:5000
+
 #### Notes
 - Using wtforms for making forms -> You can make forms from classes

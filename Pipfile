@@ -6,8 +6,15 @@ verify_ssl = true
 [dev-packages]
 
 [packages]
-flask = "*"
-flask-wtf = "*"
+click = "==7.0"
+itsdangerous = "==1.1.0"
+Flask = "==1.0.2"
+Flask-WTF = "==0.14.2"
+Jinja2 = "==2.10.1"
+MarkupSafe = "==1.1.1"
+Werkzeug = "==0.15.2"
+WTForms = "==2.2.1"
+flask-sqlalchemy = "*"
 
 [requires]
 python_version = "3.6"
