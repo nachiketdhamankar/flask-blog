@@ -17,14 +17,16 @@ I plan to watch the vidoes, create user stories and then try to code it on my ow
 - [x] I can create a new post.
 - [x] I can update the posts that I had previously created (others should not be able to update my posts).
 - [x] I can delete the post if I want to. 
+- [ ] I see visually appealing error pages (like 404 and 403).
+- [ ] The blog is secure with an SSL/TLS certificate
 
 ### System Features
-- Redirect the user back to his/her homepage once the post is deleted.
-- The profile picture is compressed to save memory.
-- If the user wants to edit his information (username, email or password), the previous information is pre-filled for the user.
-- Responsive layout that adapts to the size of the screen.
-- All users have a default profile picture which they can use (if they choose not to upload their picture).
-- User has to login to be able to access the accounts and page.
+- [x] Redirect the user back to his/her homepage once the post is deleted.
+- [x] The profile picture is compressed to save memory.
+- [x] If the user wants to edit his information (username, email or password), the previous information is pre-filled for the user.
+- [x] Responsive layout that adapts to the size of the screen.
+- [x] All users have a default profile picture which they can use (if they choose not to upload their picture).
+- [x] User has to login to be able to access the accounts and page.
 
 ### How to run
 - Open terminal with the home directory
