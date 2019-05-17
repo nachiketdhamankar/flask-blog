@@ -12,10 +12,11 @@ I plan to watch the vidoes, create user stories and then try to code it on my ow
 - [x] I can login using my email id with my password.
 - [x] Once I login, I get a success (or failure message) before redirecting to homepage (or staying on the same page)
 - [x] While logging in, if I fail to login, I see which field I entered wrong.
-- [ ] I can upload my display picture and have a default picture until I upload mine.
+- [x] I can upload my display picture and have a default picture until I upload mine.
 - [ ] I can re-login and persist the data.
-- [ ] Once I login, I can see Accounts and Logout instead of Register and Login
+- [x] Once I login, I can see Accounts and Logout instead of Register and Login
 - [ ] If I try accessing a webpage that requires me to login first, logging in will redirect me to the page I was trying to access.
+
 ### How to run
 - Open terminal with the home directory
 - Install the dependencies from requirements.txt with:
@@ -23,9 +24,15 @@ I plan to watch the vidoes, create user stories and then try to code it on my ow
 pipenv install -r requirements.txt
 ```
 - Run the flask server using
+<!--
 ```
 flask run
 ```
+-->
+```
+python run.py
+```
+
 - Go to your browser and see the project on http://localhost:5000
 
 #### Notes
